@@ -1,0 +1,55 @@
+.contact {
+  margin-bottom: 26rem;
+}
+.contact__inner {
+}
+.contact__block {
+  text-align: center;
+}
+.contact__title {
+  max-width: 95.2rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.contact__form {
+}
+.contact__group {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-bottom: 6rem;
+}
+.contact__input {
+  max-width: 31rem;
+  width: 100%;
+  border: .2rem solid #FFF;
+  padding: 1rem 1rem 1rem 1.2rem;
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'CruinnLight', sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'CruinnLight', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
+.contact__button {
+  color: #FFF;
+  background: none;
+  border: none;
+  font-family: 'Bowler', sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.188%;
+  text-transform: uppercase;;
+}

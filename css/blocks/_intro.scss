@@ -1,0 +1,25 @@
+.intro {
+  margin-top: 17.8rem;
+  margin-bottom: 38.7rem;
+}
+.container {
+}
+.intro__inner {
+  padding-left: 11rem;
+
+  @media #{$pc-lg} {
+    padding: 0;
+  }
+}
+.intro__title {
+  max-width: 109.9rem;
+  margin-bottom: 5.4rem;
+}
+.intro__text {
+  color: #FFF;
+  font-family: 'CruinnLight', sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.188%;
+}

@@ -1,0 +1,57 @@
+.installs {
+  margin-bottom: 30rem;
+}
+.installs_inner {
+}
+.installs__title {
+  max-width: 109.9rem;
+  margin-bottom: 4.1rem;
+  padding-left: 11rem;
+
+  @media #{$pc-lg} {
+    padding: 0;
+  }
+}
+.installs__intro {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 11rem;
+  margin-bottom: 12rem;
+
+  @media #{$pc-lg} {
+    padding: 0;
+  }
+}
+.installs__text {
+  max-width: 68.6rem;
+
+  p {
+    color: #FFF;
+    font-family: 'CruinnLight', sans-serif;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.188%;
+  }
+
+  p + p {
+    margin-top: 5rem;
+  }
+}
+.installs__displays {
+}
+.installs__imgs {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4.5rem;
+
+  @media #{$pc-lg} {
+    padding: 0;
+  }
+
+  img {
+    @media #{$pc-lg} {
+      width: 30%;
+    }
+  }
+}

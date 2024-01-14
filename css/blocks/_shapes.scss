@@ -1,0 +1,42 @@
+.shapes {
+  margin-bottom: 26.3rem;
+}
+.container {
+}
+.shapes__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15rem;
+  padding-right: 5rem;
+
+  @media #{$pc-lg} {
+    padding: 0;
+    justify-content: space-around;
+  }
+}
+.shape {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  text-align: center;
+}
+.shape__title {
+  margin-bottom: 6rem;
+
+  &_rectangles {
+    margin-bottom: 9.4rem;
+  }
+}
+.shape__img {
+  margin-bottom: 6rem;
+}
+.shape__text {
+  color: #FFF;
+  text-align: center;
+  font-family: 'CruinnLight', sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.188%;
+}

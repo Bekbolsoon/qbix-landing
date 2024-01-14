@@ -1,0 +1,48 @@
+@import 'vars';
+@import 'common';
+
+html {
+  font-size: 10px;
+	// scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: #FFF;
+  background: linear-gradient(180deg, #050505 0%, #282828 100%);
+  font-family: 'Bowler', sans-serif;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@import 'blocks/_header';
+@import 'blocks/_intro';
+@import 'blocks/_installs';
+@import 'blocks/_displays';
+@import 'blocks/_shapes';
+@import 'blocks/_user';
+@import 'blocks/_interior';
+@import 'blocks/_contact';
+@import 'blocks/_footer';

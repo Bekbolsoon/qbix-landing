@@ -1,0 +1,12 @@
+.header {
+  margin-top: 11.3rem;
+}
+.header__inner {
+}
+.header__logo {
+  margin-left: 11rem;
+
+  @media #{$pc-lg} {
+    margin-left: 0;
+  }
+}

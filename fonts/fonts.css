@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Bowler';
+  src: url('Bowler/Bowler.woff2') format('woff2'),
+       url('Bowler/Bowler.woff') format('woff'),
+       url('Bowler/Bowler.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CruinnRegular';
+  src: url('Cruinn/CruinnRegular.woff2') format('woff2'),
+       url('Cruinn/CruinnRegular.woff') format('woff'),
+       url('Cruinn/CruinnRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CruinnLight';
+  src: url('Cruinn/CruinnLight.woff2') format('woff2'),
+       url('Cruinn/CruinnLight.woff') format('woff'),
+       url('Cruinn/CruinnLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
