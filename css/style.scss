@@ -12,6 +12,7 @@ body {
   color: #FFF;
   background: linear-gradient(180deg, #050505 0%, #282828 100%);
   font-family: 'Bowler', sans-serif;
+  position: relative;
 }
 body.no-scroll {
   overflow: hidden;
