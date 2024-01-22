@@ -2,15 +2,25 @@
   margin-bottom: 14.4rem;
   overflow: hidden;
 
+  @media #{$mobile} {
+    margin-bottom: 10rem;
+  }
+
   &_gallery {
     margin-bottom: 11rem;
+
+    @media #{$mobile} {
+      margin-bottom: 10rem;
+    }
   }
 
   &_office {
     margin-bottom: 29.6rem;
+
+    @media #{$mobile} {
+      margin-bottom: 8rem;
+    }
   }
-}
-.container {
 }
 .interior__inner {
   padding-left: 6.5rem;
@@ -27,6 +37,10 @@
   line-height: 103.188%;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+
+  @media #{$mobile} {
+    margin-bottom: 2.5rem;
+  }
 }
 .interior__title {
   border: 3px solid #FFF;
@@ -34,23 +48,44 @@
   display: inline-block;
   padding: 2rem 2.5rem 1rem 1.7rem;
   margin-bottom: 14.4rem;
+
+  @media #{$mobile} {
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 4.5rem;
+  }
 }
 
 .interior__slider-wrapper {
   width: 111.8rem;
   margin: 0 auto;
 
+  @media #{$pc-sm} {
+    width: 76.8rem;
+  }
+
+  @media #{$tablet} {
+    width: 100%;
+    padding-left: 2rem;
+  }
+
   &_office {
     width: 74.9rem;
+
+    @media #{$pc-sm} {
+      width: 51.9rem;
+    }
+
+    @media #{$tablet} {
+      width: 100%;
+      padding-left: 2rem;
+    }
   }
-}
-.swiper {
 }
 .interior__slider {
   overflow: visible;
   position: relative;
-}
-.swiper-wrapper {
 }
 .swiper-slide {
   width: auto;
@@ -81,6 +116,10 @@
 .swiper-slide-active {
   .interior__img {
     margin: 0 auto;
+
+    @media #{$tablet} {
+      margin: 0;
+    }
   }
 }
 
@@ -96,6 +135,10 @@
     transform: scale(0.66);
     transform-origin: right;
     transition: transform .3s linear;
+
+    @media #{$tablet} {
+      transform: none;
+    }
   }
 }
 
@@ -104,6 +147,10 @@
     transform: scale(0.66);
     transform-origin: left;
     transition: transform .3s linear;
+
+    @media #{$tablet} {
+      transform: none;
+    }
   }
 }
 
@@ -113,6 +160,13 @@
     height: 74.5rem;
     display: block;
     border: 3px solid #FFF;
+
+    @media #{$pc-sm} {
+      height: 51.6rem;
+    }
+    @media #{$mobile} {
+      height: 38.6rem;
+    }
   }
 }
 
@@ -126,6 +180,10 @@
 
   svg {
     height: 100%;
+  }
+
+  @media #{$tablet} {
+    display: none;
   }
 }
 .swiper-button-prev-1,

@@ -6,6 +6,9 @@
   @media #{$design-size} {
     width: auto;
   }
+  @media #{$mobile} {
+    margin-bottom: 16.8rem;
+  }
 }
 .user__inner {
   display: flex;
@@ -14,11 +17,25 @@
   @media #{$pc-sm} {
     gap: 5rem;
   }
+  @media #{$tablet} {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 6rem;
+  }
 }
 .user__img {
+  @media #{$mobile} {
+    width: 100%;
+  }
+
   img {
     max-width: 73.6rem;
     width: 100%;
+  }
+}
+.user__content {
+  @media #{$mobile} {
+    padding-left: 2rem;
   }
 }
 .user__text {
@@ -29,11 +46,24 @@
   font-weight: 400;
   line-height: 103.188%;
   max-width: 70.3rem;
+
+  @media #{$mobile} {
+    font-size: 2.3rem;
+  }
 }
 .user__title {
   margin-bottom: 4.5rem;
+
+  @media #{$mobile} {
+    margin-bottom: 3.5rem;
+  }
 }
 .user__title_formats {
   margin-top: 5.8rem;
   margin-bottom: 2.2rem;
+
+  @media #{$mobile} {
+    margin-top: 7rem;
+    margin-bottom: 3.5rem;
+  }
 }

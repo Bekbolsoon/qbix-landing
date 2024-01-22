@@ -1,8 +1,11 @@
 .intro {
   margin-top: 17.8rem;
   margin-bottom: 38.7rem;
-}
-.container {
+
+  @media #{$mobile} {
+    margin-top: 23.6rem;
+    margin-bottom: 35rem;
+  }
 }
 .intro__inner {
   padding-left: 11rem;
@@ -22,4 +25,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 103.188%;
+
+  @media #{$mobile} {
+    font-size: 2.2rem;
+  }
 }

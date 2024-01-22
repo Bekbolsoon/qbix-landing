@@ -1,7 +1,9 @@
 .shapes {
   margin-bottom: 26.3rem;
-}
-.container {
+
+  @media #{$mobile} {
+    margin-bottom: 18.5rem;
+  }
 }
 .shapes__inner {
   display: flex;
@@ -12,6 +14,11 @@
   @media #{$pc-lg} {
     padding: 0;
     justify-content: space-around;
+  }
+  @media #{$tablet} {
+    flex-direction: column;
+    align-items: center;
+    gap: 14rem;
   }
 }
 .shape {
@@ -27,9 +34,17 @@
   &_rectangles {
     margin-bottom: 9.4rem;
   }
+
+  @media #{$mobile} {
+    font-size: 4rem;
+  }
 }
 .shape__img {
   margin-bottom: 6rem;
+
+  @media #{$mobile-sm} {
+    max-width: 65%;
+  }
 }
 .shape__text {
   color: #FFF;
@@ -39,4 +54,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 103.188%;
+
+  @media #{$mobile} {
+    font-size: 1.8rem;
+  }
 }

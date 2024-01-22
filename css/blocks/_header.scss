@@ -1,12 +1,25 @@
 .header {
   padding-top: 11.3rem;
+
+  @media #{$mobile} {
+    padding-top: 2.4rem;
+  }
 }
 .header__inner {
 }
 .header__logo {
   margin-left: 11rem;
+  width: 8.3rem;
+
+  img {
+    width: 100%;
+  }
 
   @media #{$pc-lg} {
     margin-left: 0;
+  }
+
+  @media #{$mobile} {
+    width: 3rem;
   }
 }

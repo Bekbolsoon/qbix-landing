@@ -1,4 +1,8 @@
 .displays {
+  
+  @media #{$notebook-lg} {
+    width: 100%;
+  }
 }
 .displays__title {
   color: #FFF;
@@ -8,11 +12,23 @@
   line-height: 103.188%;
   text-transform: uppercase;
   margin-bottom: 4.8rem;
+
+  @media #{$mobile} {
+    margin-bottom: 3rem;
+  }
 }
 .displays__imgs {
   display: flex;
   gap: 1.8rem;
   margin-bottom: 4.9rem;
+
+  @media #{$tablet-sm} {
+    overflow: scroll;
+    gap: 5rem;
+  }
+  @media #{$mobile} {
+    margin-bottom: 2rem;
+  }
 }
 .displays__note {
   color: #FFF;
@@ -21,4 +37,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 103.188%;
+
+  @media #{$mobile} {
+    font-size: 1.8rem;
+  }
 }

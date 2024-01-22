@@ -3,9 +3,23 @@
 .footer__inner {
   text-align: center;
   padding-bottom: 25rem;
+
+  @media #{$mobile} {
+    padding-bottom: 14.1rem;
+  }
 }
 .footer__logo {
   margin-bottom: 6rem;
+
+  @media #{$mobile} {
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    width: 6.4rem;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 .footer__title {
   color: #FFF;
@@ -15,6 +29,10 @@
   line-height: 103.188%;
   text-transform: uppercase;
   margin-bottom: 6rem;
+
+  @media #{$mobile} {
+    font-size: 2.3rem;
+  }
 }
 .footer__links {
   a + a {
