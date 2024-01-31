@@ -52,19 +52,23 @@ window.addEventListener('resize', function() {
 
 // Animated lines
 document.addEventListener('DOMContentLoaded', function () {
-  const lines = document.querySelectorAll('.line');
+  const screenWidth = window.innerWidth || document.documentElement.clientWidth;
 
-  const updateLines = () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+  if (screenWidth > 768) {
+    const lines = document.querySelectorAll('.line');
 
-    lines.forEach((line, index) => {
-      const speed = 0.1;
-      const newPosition = scrollTop * speed;
-      line.style.transform = `translateY(${newPosition}px)`;
-    });
-  };
+    const updateLines = () => {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-  updateLines();
+      lines.forEach((line, index) => {
+        const speed = 0.1;
+        const newPosition = scrollTop * speed;
+        line.style.transform = `translateY(${newPosition}px)`;
+      });
+    };
 
-  window.addEventListener('scroll', updateLines);
+    updateLines();
+
+    window.addEventListener('scroll', updateLines);
+  }
 });
