@@ -10,6 +10,7 @@ function initSwipers() {
 
       breakpoints: {
         992: {
+          slidesPerView: 1,
           spaceBetween: 110,
           initialSlide: 1
         }
@@ -29,6 +30,7 @@ function initSwipers() {
 
       breakpoints: {
         992: {
+          slidesPerView: 1,
           spaceBetween: 110,
           initialSlide: 1
         }
